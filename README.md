@@ -74,10 +74,10 @@ This repository contains all the code and supporting files needed to reproduce t
 
 The research was conducted in a series of sequential steps, with each step documented in a corresponding Jupyter Notebook in the `/notebooks` directory.
 
-1.  **Data Collection & Curation (`01` to `04`):** Raw articles were scraped from Odia newspapers, cleaned, validated, and transformed into a structured, bidirectional corpus.
-2.  **Model Fine-Tuning (`05` & `06`):** Two separate experiments were conducted to fine-tune the base NLLB model: one using the traditional full fine-tuning approach and another using the parameter-efficient LoRA method.
-3.  **Model Deployment (`07`):** The final model artifacts were uploaded to the Hugging Face Hub.
-4.  **Analysis (`08` & `09`):** Final evaluations, efficiency calculations (artifact size), and advanced interpretability analyses (sampling) were performed.
+1.  **Data Collection & Curation:** Raw articles were scraped from Odia newspapers, cleaned, validated, and transformed into a structured, bidirectional corpus.
+2.  **Model Fine-Tuning:** Two separate experiments were conducted to fine-tune the base NLLB model: one using the traditional full fine-tuning approach and another using the parameter-efficient LoRA method.
+3.  **Model Deployment:** The final model artifacts were uploaded to the Hugging Face Hub.
+4.  **Analysis:** Final evaluations, efficiency calculations (artifact size), and advanced interpretability analyses (sampling) were performed.
 
 ---
 
