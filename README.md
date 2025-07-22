@@ -81,6 +81,20 @@ The research was conducted in a series of sequential steps, with each step docum
 
 ---
 
+## Viewing Notebooks and Outputs
+
+Due to a common rendering issue with GitHub, some of the more complex notebooks in this repository that contain interactive widgets (like `tqdm` progress bars) may display an "Invalid Notebook" error or fail to render correctly.
+
+To ensure full reproducibility and to allow for the inspection of all cell outputs, the original, fully-rendered versions of all notebooks are hosted on the Hugging Face Hub.
+
+* **To view the notebooks for data creation and processing**, please visit the [Dataset Repository on Hugging Face](https://huggingface.co/datasets/abhinandansamal/bidirectional_odia_german_translation_parallel_corpus/tree/main).
+* **To view the notebooks for the Full Fine-Tuning experiment**, please visit the [Fully Fine-Tuned Model Repository on Hugging Face](https://huggingface.co/abhinandansamal/nllb-200-distilled-600M-finetuned-odia-german-bidirectional/tree/main).
+* **To view the notebooks for the Adapter-Based (LoRA) Fine-Tuning experiment**, please visit the [LoRA Model Repository on Hugging Face](https://huggingface.co/abhinandansamal/nllb-200-distilled-600M-LoRA-finetuned-odia-german-bidirectional/tree/main).
+
+The versions of the notebooks stored in this GitHub repository have had their outputs cleared to resolve the rendering issue, serving as clean code templates for the project.
+
+---
+
 ## Key Results
 
 This research conducted a comparative analysis of three models: the zero-shot Baseline, a Fully Fine-Tuned (FFT) model, and a parameter-efficient Adapter-Tuned (LoRA) model. The study found a clear and nuanced trade-off between the two fine-tuning methodologies, with the optimal strategy depending on the translation direction.
