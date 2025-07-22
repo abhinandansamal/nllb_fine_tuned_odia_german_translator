@@ -32,35 +32,37 @@ The custom, human-validated parallel corpus created for this thesis is also avai
 
 This repository contains all the code and supporting files needed to reproduce the experiments and results.
 
-├── 📂 data/
-│   ├── 📂 raw/
-│   │   ├── 📄 authentic_odia_corpus_v1.txt
-│   │   └── 📄 authentic_german_corpus_v1.txt
-│   └── 📂 transformed/
-│       ├── 📄 authentic_corpus,jsonl
-│       ├── 📄 authentic_corpus_final.jsonl
-│       ├── 📄 bidirectional_corpus.jsonl
-│       └── 📄 bidirectional_corpus_final.jsonl
-├── 📂 images/
-│   └── 🖼️ (Plots, diagrams, and figures for the thesis)
-├── 📂 notebooks/
-│   ├── 📜 odia_news_article_web_scraping.ipynb
-│   ├── 📜 check_num_of_lines.ipynb
-│   ├── 📜 final_data_instance_creation.ipynb
-│   ├── 📜 bidirectional_corpus_create.ipynb
-│   ├── 📜 bidirectional_full_fine_tuning_evaluation_NLLB.ipynb
-│   ├── 📜 bidirectional_LoRA_fine_tuning_evaluation_NLLB.ipynb
-│   ├── 📜 sampling_analysis_full_fine_tuning_LoRA_NLLB.ipynb
-│   ├── 📜 final_artifact_size.ipynb
-│   ├── 📜 model_deployment.ipynb
-│   ├── 📜 fully_fine_tuned_model_web_application.ipynb
-│   ├── 📜 Adapter_based_fine_tuned_model_web_application.ipynb
-│   ├── 📜 model_deployment.ipynb
-│   ├── 📜 nllb_200_distilled_600M.ipynb
-│   ├── 📜 data_upload_hf.ipynb
-│   ├── 📜 fully_fine_tuned_nllb_model_load_test.ipynb
-│   └── 📜 LoRA_fine_tuned_nllb_model_load_test.ipynb
-└── 📜 README.md
+
+      ├── 📂 data/
+      │   ├── 📂 raw/
+      │   │   ├── 📄 authentic_odia_corpus_v1.txt
+      │   │   └── 📄 authentic_german_corpus_v1.txt
+      │   └── 📂 transformed/
+      │       ├── 📄 authentic_corpus,jsonl
+      │       ├── 📄 authentic_corpus_final.jsonl
+      │       ├── 📄 bidirectional_corpus.jsonl
+      │       └── 📄 bidirectional_corpus_final.jsonl
+      ├── 📂 images/
+      │   └── 🖼️ (Plots, diagrams, and figures for the thesis)
+      ├── 📂 notebooks/
+      │   ├── 📜 odia_news_article_web_scraping.ipynb
+      │   ├── 📜 check_num_of_lines.ipynb
+      │   ├── 📜 final_data_instance_creation.ipynb
+      │   ├── 📜 bidirectional_corpus_create.ipynb
+      │   ├── 📜 bidirectional_full_fine_tuning_evaluation_NLLB.ipynb
+      │   ├── 📜 bidirectional_LoRA_fine_tuning_evaluation_NLLB.ipynb
+      │   ├── 📜 sampling_analysis_full_fine_tuning_LoRA_NLLB.ipynb
+      │   ├── 📜 final_artifact_size.ipynb
+      │   ├── 📜 model_deployment.ipynb
+      │   ├── 📜 fully_fine_tuned_model_web_application.ipynb
+      │   ├── 📜 Adapter_based_fine_tuned_model_web_application.ipynb
+      │   ├── 📜 model_deployment.ipynb
+      │   ├── 📜 nllb_200_distilled_600M.ipynb
+      │   ├── 📜 data_upload_hf.ipynb
+      │   ├── 📜 fully_fine_tuned_nllb_model_load_test.ipynb
+      │   └── 📜 LoRA_fine_tuned_nllb_model_load_test.ipynb
+      └── 📜 README.md
+
 
 * **`data/`**: Contains the raw and transformed corpora.
 * **`images/`**: Contains all the plots, figures, and diagrams generated for the thesis.
