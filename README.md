@@ -12,11 +12,11 @@ The final fine-tuned models and their interactive web applications are hosted on
 
 * **Fully Fine-Tuned Model:**
     * **[Access the Model on Hugging Face Hub](https://huggingface.co/abhinandansamal/nllb-200-distilled-600M-finetuned-odia-german-bidirectional)**
-    * **[Try the Live Web App](https://huggingface.co/spaces/abhinandansamal/full_fine_tuned_model_web_application)**
+    * **Try the Live Web App: [https://huggingface.co/spaces/abhinandansamal/full_fine_tuned_model_web_application](https://huggingface.co/spaces/abhinandansamal/Odia-German-Translator)**
 
 * **Adapter-Based (LoRA) Model:**
     * **[Access the Model on Hugging Face Hub](https://huggingface.co/abhinandansamal/nllb-200-distilled-600M-LoRA-finetuned-odia-german-bidirectional)**
-    * **[Try the Live Web App](https://huggingface.co/spaces/abhinandansamal/Adapter_based_fine_tuned_model_web_application)**
+    * **Try the Live Web App: [https://huggingface.co/spaces/abhinandansamal/Adapter_based_fine_tuned_model_web_application](https://huggingface.co/spaces/abhinandansamal/Adapter-based-Odia-German-Translator)**
 
 ---
 
